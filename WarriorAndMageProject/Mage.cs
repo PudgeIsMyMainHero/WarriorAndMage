@@ -11,6 +11,7 @@ namespace WarriorAndMageProject
         private int mana;
         private int intelligence;
         private const int intelligenceMultiplier = 5;
+        private const PlayerClass _playerClass = PlayerClass.Mage;
 
         public Mage(int maxHealth, int baseDamage, int intelligence, string name, Inventory inventory) : base(maxHealth, baseDamage, name, inventory)
         {

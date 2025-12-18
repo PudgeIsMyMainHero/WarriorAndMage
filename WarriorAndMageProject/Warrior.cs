@@ -11,7 +11,8 @@ namespace WarriorAndMageProject
         private int rage;
         private int strength;
         private const int strengthMultiplier = 20;
-
+        
+        
         public Warrior(int maxHealth, int baseDamage, int strength, string name, Inventory inventory) : base(maxHealth, baseDamage, name, inventory)
         {
             rage = 0;

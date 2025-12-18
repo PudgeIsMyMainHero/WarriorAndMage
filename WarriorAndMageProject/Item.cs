@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WarriorAndMageProject
 {
-    internal class Item
+    public class Item
     {
         protected readonly int maxStack;
 

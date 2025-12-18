@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace WarriorAndMageProject
 {
-    internal abstract class Character : IDealDamage
+    
+    public abstract class Character : IDealDamage
     {
         protected int health;
         protected int maxHealth;
         protected int baseDamage;
-
         protected string name;
-
+        
         public int Health
         {
             get

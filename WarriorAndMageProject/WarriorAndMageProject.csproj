@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armor.cs" />
+    <Compile Include="ArmorType.cs" />
     <Compile Include="Bomb.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="EquipmentManager.cs" />
     <Compile Include="HealthPotion.cs" />
-    <Compile Include="IDealDamage.cs" />
+    <Compile Include="Interfaces\IDealDamage.cs" />
+    <Compile Include="Interfaces\IUsableItem.cs" />
     <Compile Include="Inventory.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="IUsableItem.cs" />
+    <Compile Include="Jewelry.cs" />
     <Compile Include="Mage.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="PlayerClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuestItem.cs" />

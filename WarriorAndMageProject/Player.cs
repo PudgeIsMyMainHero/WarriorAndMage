@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace WarriorAndMageProject
 {
-    internal abstract class Player : Character
+    public abstract class Player : Character
     {
         private int playerLevel;
         private int currentExperience;
         private const int baseRequiredExperience = 100;
         private int endurance;
         private const int enduranceMultiplier = 5;
-
+        private PlayerClass _playerClass;
         private Inventory inventory;
+
+        public PlayerClass PlayerClass
+        {
+            get {return _playerClass;}
+        }
 
         public int PlayerLevel
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WarriorAndMageProject
 {
-    internal class Inventory
+    public class Inventory
     {
 
     }
